@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ljding.app — Apps by Lijie Ding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>ljding.app</h1>
+            <p class="tagline">A small collection of apps I&rsquo;ve built.</p>
+        </header>
+
+        <section class="apps">
+            <a class="app-card" href="https://learn.ljding.app">
+                <h2>Learn Some AI</h2>
+                <p>Bite-sized lessons and demos for learning AI concepts.</p>
+                <div class="links">
+                    <span class="domain">learn.ljding.app</span>
+                    <span class="source">
+                        <a href="https://github.com/znding04/learn-some-ai" onclick="event.stopPropagation()">source &rarr;</a>
+                    </span>
+                </div>
+            </a>
+
+            <a class="app-card" href="https://arcade.ljding.app">
+                <h2>Play Arcade Games</h2>
+                <p>A collection of classic browser-based arcade games.</p>
+                <div class="links">
+                    <span class="domain">arcade.ljding.app</span>
+                    <span class="source">
+                        <a href="https://github.com/znding04/play-arcade-games" onclick="event.stopPropagation()">source &rarr;</a>
+                    </span>
+                </div>
+            </a>
+
+            <a class="app-card" href="https://hangwith.ljding.app/#/">
+                <h2>Who To Hang With</h2>
+                <p>Helps you decide who to hang out with next.</p>
+                <div class="links">
+                    <span class="domain">hangwith.ljding.app</span>
+                    <span class="source">
+                        <a href="https://github.com/znding04/who-to-hang-with" onclick="event.stopPropagation()">source &rarr;</a>
+                    </span>
+                </div>
+            </a>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Lijie Ding</p>
+        </footer>
+    </main>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
